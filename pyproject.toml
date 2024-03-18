@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry env use 3-11-1"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre Lima <alexandrepompeu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry env use 3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
